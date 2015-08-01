@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Bubblegum+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 body{
    width:100%;
    overflow:hidden;
@@ -7,14 +7,20 @@ body{
    cursor:pointer;
    background:hsla(0,0%,10%,1);
 }
+
+
+
 h1{
    width:100%;
    top:35%;
    left:0;
    position:absolute;
    text-align:center;
-   font-family: 'Bubblegum Sans', cursive;
+   font-family: "open sans",arial,sans-serif;
+   font-weight: 300;
    font-size:4em;
+   letter-spacing: -1px;
+  line-height: 1;
    letter-spacing:5px;
    z-index:1;
    color:hsla(56, 95%, 95%, 1);
