@@ -106,6 +106,21 @@ section::after {
   color: black;
 }
 
+/*****SVG*****/
+@media (min-width: 360px){
+.container svg {
+  display: block;
+  width:300%;
+}
+
+footer .copyright p {
+  text-align: center;
+  font-size: 42px;
+}
+
+}
+
+
 /* Media Queries for the layout */
 @media screen and (max-width: 68em) {
   section {
@@ -182,3 +197,57 @@ footer .social a:hover {
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
 }
+
+
+
+/************ejemplo**********************/
+
+/* para 980px o menos 
+	@media screen and (max-width:980px) {
+		.container {
+			width:98%;
+		}
+		section {
+			width:68%;
+		}
+	}
+ */
+	/* para 700px o menos 
+	@media screen and (max-width:700px) {
+		aside,section {
+			float:none;
+			width:96%;
+		}
+		nav, section {
+			font-size:1.2em;
+		}
+		aside {
+			margin-top:5px;
+		}
+		nav ul {
+			float:none;
+			clear:both;
+		}
+	}
+ */
+	/* para 480px o menos 
+	@media screen and (max-width:480px) {
+		aside {
+			display:none;
+		}
+		nav, section {
+			font-size:1.5em;
+		}
+		section {
+			width:94%;
+		}
+		nav ul {
+			float:left;
+			clear:none;
+			width:50%;
+		}
+		nav ul li {
+			float:none;
+		}
+	}
+*/
